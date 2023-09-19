@@ -1,0 +1,148 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main
+{
+    width: 60%;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 20%;
+    background-color: aqua;
+    font-family: 'Gill Sans', sans-serif;
+}
+.page1
+{
+    width: 50%;
+    height: 600px;
+    background-color:azure;
+    float: left;
+}
+.page2
+{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+
+.h1
+{
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    float: left;
+}
+
+.social
+{
+    font-size: 35px;
+    float: left;
+    position: absolute;
+    top: 15%;
+    left: 42%;
+}
+i
+{
+    box-shadow: 15px,10px,50px black;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    color: gray;
+}
+.page2
+{
+    background: rgb(199,4,119);
+    background: linear-gradient(90deg, rgba(199,4,119,1) 0%, rgba(250,42,85,1) 100%);
+}
+.content2
+{
+    text-align: center;
+    margin-top: 35%;
+    color: white;
+}
+h2
+{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+h5
+{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.content2 button
+{
+    position: absolute;
+    top: 43%;
+    left: 62.5%;
+    border: 1px solid white;
+    background-color: rgb(250, 42, 85) ;
+    border-radius: 30px;
+    width: 100px;
+}
+button:hover
+{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(199,4,119,1) 0%, rgba(250,42,85,1) 100%);
+}
+.form
+{
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    height: 500px;
+    width: 480px;
+}
+label
+{
+    display: block;
+    font-size: 18px;
+    margin-top: 5%;
+}
+ input
+{
+    height: 50px;
+    width: 450px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 3%;
+    background-color: rgb(224, 223, 223);
+}
+button
+{
+    height: 50px;
+    width: 450px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+}
+.checkbox
+{
+    height: 20px;
+    position: absolute;
+    top: 62%;
+    right: 50%;
+}
+p
+{
+    height: 20px;
+    position: absolute;
+    top: 65.5%;
+    right:72%;
+}
+a
+{
+    height: 20px;
+    position: absolute;
+    top: 65.5%;
+    right:10%;
+}
+
+
