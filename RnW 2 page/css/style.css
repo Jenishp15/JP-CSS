@@ -1,0 +1,176 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.header
+{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)), url(/img/backgroung.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.navbar
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+    align-items: center;
+}
+.navbar .logo
+{
+    height: 100px;
+    width: 100px;
+}
+.navbar .logo img
+{
+    height: 100%;
+    width: 100%;
+}
+.navbar .nav-menu ul
+{
+    display: flex;
+    list-style: none;
+}
+.nav-menu ul li
+{
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.nav-menu ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+li::after
+{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: red;
+    margin: auto;
+    display: block;
+    transition: all 0.3s;
+}
+li:hover::after
+{
+    width: 100%;
+}
+
+.content
+{
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.content h1
+{
+    font-size: 50px;
+}
+.content p
+{
+    font-size: 20px;
+    padding: 25px ;
+}
+
+.content a
+{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    transition: all 0.5s;
+}
+.content a:hover
+{
+    background-color: red;
+    border: none;
+}
+
+
+
+@media(max-width:700px)
+{
+    .content h1
+    {
+        font-size: 70px;
+    }
+
+    .boxs
+    {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .navbar
+    {
+        width: 80%;
+    }
+
+    .content a
+    {
+        width: 5px;
+   
+    }
+
+    .container .col .boxs .box 
+    {
+        display: inline;
+        flex-direction:column ;
+        width: 100%;
+    }
+   
+}
+
+
+/* Container */
+
+.container
+{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.container .col
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.container .col .boxs
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container .col  .box
+{
+    margin: 10px;
+    background-color: lightcoral;
+    border-radius: 10px;
+ 
+}
+ 
+.container .col  .box:hover
+{
+    box-shadow: 0px 0px 15px gray;
+}
+.container .col  .box p
+{
+    padding: 0px 10px 10px 10px;
+}
