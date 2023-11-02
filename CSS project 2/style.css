@@ -1,0 +1,555 @@
+style.css
+*
+{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+body
+{font-family:poppins;}
+
+.header img
+{width: 100%; height: 970px;  border-radius:0px 0px 150px 150px; display: block;}
+
+.navigation
+{width: 100%; height: 100px; background-color: #0071f8; position: fixed; top: 0%; left: 0%; z-index: 22; border-radius: 0px 0px 50px 50px;}
+
+.navigation .logo
+{position: absolute; left: 17%; top: 17%;}
+
+.navigation .bar
+{position: absolute; right: 17%; top: 25%; }
+
+.bar a
+{ color: white; text-decoration: none; padding: 10px 20px; }
+
+
+.features a
+{  padding-left: 20%; text-decoration: none; padding: 0px 0px 0px 38px; color: white;}
+
+.bar .signin
+{background-color: lightcoral; height: 45px; width: 100px; margin-left: 30px; border-radius: 50px; border: none;}
+
+
+h1 img
+{position: absolute; top: 80%; left: 90px; size: 10px;}
+
+.content1
+{height: 500px; width:35%;  position: absolute; top: 30%; left: 17%; color: white; text-align: justify;}
+
+.content1 h6
+{font-size: 20px; }
+
+.content1 h1
+{ font-size: 45px; }
+
+.content1 p
+{font-size: 13px;  } 
+
+.content1 img
+{top: 35%; left: 17%;}
+
+.content1 input
+{padding: 17px; margin-top: 10%; width: 47%; border-radius: 50px; border: none;}
+
+.content1 button
+{padding: 17px; margin-top: 10%; width: 22%; border-radius: 50px; border: none; background-color: lightcoral; position: absolute; left: 41%; color: white;}
+
+button:hover
+{background-color: #0071f8;}
+
+.himg
+{position: absolute; top: 25%; right: 17%; }
+
+.himg img
+{border-radius: 25px; z-index: 1;}
+
+.himg span.price
+{ position: absolute; top: 5%; right: 5%; height: 40px; width: 70px; border-radius:25px; background-color: #008AF8; text-align: center; font-size: 22px; color: white; line-height:40px ;}
+
+.himg span.offer
+{ position: absolute; bottom:-5%; ;left:-5%; height: 100px; width: 100px; border-radius:50px; background-color: lightcoral; text-align: center; font-size: 30px; color: white; line-height:100px ;}
+
+.features
+{width: 100%; height: 200px; position: relative; top: -100px;}
+
+
+
+.box1
+{height: 200px; width: 300px; background-color: white; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15); position: absolute; left: 17%; border-radius: 25px;} 
+
+.box1 .b1
+{height: 100px; width: 100px; border-radius: 50px; background-color: #0071f8; line-height: 100%; position: absolute; top: 20%; left:35%; transition: 0.3s; }
+
+.box1:hover .b1
+{background-color: lightcoral;}
+
+
+.box1 .b1 img
+{position: absolute; left: 30%; top: 30%;}
+
+.box1 a
+{color: black; position: absolute; left: 15%; top: 75%; font-weight: bold;} 
+
+
+.box2
+{height: 200px; width: 300px; background-color: white; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15); position: absolute; left: 33.7%; border-radius: 25px;} 
+
+.box2 .b2
+{height: 100px; width: 100px; border-radius: 50px; background-color: #0071f8; line-height: 100%; position: absolute; top: 20%; left:35%; 
+transition: 0.3s;}
+
+.box2:hover .b2
+{background-color: lightcoral;}
+
+.box2 .b2 img
+{position: absolute; left: 30%; top: 30%;}
+
+.box2 a
+{color: black; position: absolute; left: 22%; top: 75%; font-weight: bold;} 
+
+
+.box3
+{height: 200px; width: 300px; background-color: white; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15); position: absolute; right: 33.7%; border-radius: 25px;} 
+
+.box3 .b3
+{height: 100px; width: 100px; border-radius: 50px; background-color: #0071f8; line-height: 100%; position: absolute; top: 20%; left:35%; transition: 0.3s; }
+
+.box3:hover .b3
+{background-color: lightcoral;}
+
+.box3 .b3 img
+{position: absolute; left: 30%; top: 30%;}
+
+.box3 a
+{color: black; position: absolute; left: 18%; top: 75%; font-weight: bold;} 
+
+.box4
+{height: 200px; width: 300px; background-color: white; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15); position: absolute; right: 17%; border-radius: 25px;} 
+
+.box4 .b4
+{height: 100px; width: 100px; border-radius: 50px; background-color: #0071f8; line-height: 100%; position: absolute; top: 20%; left:35%; transition: 0.3s;}
+
+.box4 .b4 img
+{position: absolute; left: 30%; top: 30%;}
+
+.box4:hover .b4
+{background-color: lightcoral;}
+
+.box4 a
+{color: black; position: absolute; right: 31%; top: 75%; font-weight: bold;} 
+
+
+
+/* Trending games */
+
+
+.trending
+{ position: relative;height: 450px;}
+
+.trending .t-1
+{position: absolute; top: 0%; left: 17%;} 
+
+.t-1 h5
+{margin-bottom: 20px; color: lightcoral; font-size:15px;}
+
+.trending .t-2 button
+{position: absolute; top: 5% ; right: 17%; background-color: lightcoral; color: white; border: none; height: 50px; width: 7%; border-radius: 25px;  transition: 0.3s; }
+
+.t-2 button:hover
+{background-color: #0071f8;}
+
+.games
+{height: 300px; width: 100%;}
+
+.game1
+{width: 300px; height: 300px; background-color: #eeeeee; position: absolute; left: 17%; top: 30%; border-radius: 25px;}
+
+.game1:hover h3
+{color: #0071f8;}
+
+.game1 img
+{border-radius: 25px;}
+
+.game1 h5
+{color: gray; position: absolute; left: 15px; top: 80%;} 
+
+.game1 h3
+{position: absolute; left: 15px; top: 85%; transition: 0.3s;} 
+
+.shop 
+{ position: absolute; top: 80%; left: 80%;   height: 40px; width: 40px; border-radius: 50px; background-color: lightcoral; transition: 0.3s;}
+
+.game1:hover .shop
+{background-color: #0071f8;}
+
+.shop i
+{text-align: center; position: relative; top:5px; left: 8px; color: white; font-size: 25px;} 
+
+.game2
+{position: absolute; left: 33.7%; top: 30%; background-color:#eeeeee; height: 300px; width: 300px; border-radius: 25px;} 
+
+.game2:hover h3
+{color: #0071f8;}
+
+.game2 img
+{border-radius: 25px;}
+
+
+.game2 h5
+{color: gray; position: absolute; left: 15px; top: 80%;} 
+
+.game2 h3
+{position: absolute; left: 15px; top: 85%; transition: 0.3s;} 
+
+.game2:hover .shop
+{background-color: #0071f8;}
+
+.game3
+{position: absolute; right: 33.7%; top: 30%; background-color:#eeeeee; height: 300px; width: 300px; border-radius: 25px;} 
+
+.game3:hover h3
+{color: #0071f8;}
+
+.game3 img
+{border-radius: 25px;}
+
+.game3 h5
+{color: gray; position: absolute; left: 15px; top: 80%;} 
+
+.game3 h3
+{position: absolute; left: 15px; top: 85%; transition: 0.3s;} 
+
+.game3:hover .shop
+{background-color: #0071f8;}
+
+.game4
+{position: absolute; right: 17%; top: 30%; background-color:#eeeeee; height: 300px; width: 300px; border-radius: 25px;} 
+
+.game4:hover h3
+{color: #0071f8;}
+
+.game4 img
+{border-radius: 25px;}
+
+.game4 h5
+{color: gray; position: absolute; left: 15px; top: 80%;} 
+
+.game4 h3
+{position: absolute; left: 15px; top: 85%; transition: 0.3s;} 
+
+.price1
+{position: absolute; background-color: #008af8; text-align: center; height: 40px; width: 60px; font-size: 17px; border-radius: 10px; color:  white; padding: 6px 15px; top: 20px; right: 20px;} 
+
+.price
+{position: absolute; background-color: #008af8; text-align: center; height: 70px; width: 60px; font-size: 17px; border-radius: 10px; color:  white; padding: 6px 15px; top: 20px; right: 20px;} 
+ 
+.game4:hover .shop
+{background-color: #0071f8;}
+
+
+
+
+/* Most played */
+
+
+.mostplayed
+{ position: relative; height: 650px; background-color: #f7f7f7; margin-top: 120px; border-radius: 150px;}
+
+.mostplayed .m-1
+{position: absolute; top: 0%; left: 17%;} 
+
+.m-1 h5
+{margin-bottom: 20px; color: lightcoral; font-size:15px; padding-top: 100px; }
+
+.mostplayed .m-2 button
+{position: absolute; top: 5% ; right: 17%; background-color: lightcoral; color: white; border: none; height: 50px; width: 7%; border-radius: 25px;  transition: 0.3s; margin-top: 100px;}
+
+.m-2 button:hover
+{background-color: #0071f8; }
+
+
+.most
+{position: absolute ;  height: 304px;  top: 35%; left: 17%; right: 17%;}
+
+.most1
+{width: 196px; height: 304px; background-color: white; position: absolute;  border-radius: 25px; text-align: center;}
+
+.mpst1:hover h3
+{color: #0071f8;}
+
+.most1 img
+{border-radius: 25px; height: 100%; width: 100%;}
+
+.most1 h5
+{color: gray; position: absolute; left: 30%; bottom: 22%;} 
+
+.most1 h3
+{position: absolute; left: 15%; bottom : 12%; transition: 0.3s;} 
+
+.most1 button
+{ padding: 10px 15px; background-color: lightcoral; border-radius: 25px; border: none; color: white; position: absolute; left: 25%; bottom: -5%; transition: 0.3s;}
+
+.most1:hover button 
+{background-color: #0071f8;}
+
+.most1:hover h3 
+{color: #0071f8;}
+
+
+.most2
+{width: 196px; height: 304px; background-color: white; position: absolute;  border-radius: 25px; text-align: center; top: 0%; left: 17%;}
+
+.mpst2:hover h3
+{color: #0071f8;}
+
+.most2 img
+{border-radius: 25px; height: 100%; width: 100%;}
+
+.most2 h5
+{color: gray; position: absolute; left: 30%; bottom: 22%;} 
+
+.most2 h3
+{position: absolute; left: 15%; bottom : 12%; transition: 0.3s;} 
+
+.most2 button
+{ padding: 10px 15px; background-color: lightcoral; border-radius: 25px; border: none; color: white; position: absolute; left: 25%; bottom: -5%; transition: 0.3s;}
+
+.most2:hover button 
+{background-color: #0071f8;}
+
+.most2:hover h3 
+{color: #0071f8;}
+
+
+.most3
+{width: 196px; height: 304px; background-color: white; position: absolute;  border-radius: 25px; text-align: center; top: 0%; left: 34%;}
+
+.mpst3:hover h3
+{color: #0071f8;}
+
+.most3 img
+{border-radius: 25px; height: 100%; width: 100%;}
+
+.most3 h5
+{color: gray; position: absolute; left: 30%; bottom: 22%;} 
+
+.most3 h3
+{position: absolute; left: 15%; bottom : 12%; transition: 0.3s;} 
+
+.most3 button
+{ padding: 10px 15px; background-color: lightcoral; border-radius: 25px; border: none; color: white; position: absolute; left: 25%; bottom: -5%; transition: 0.3s;}
+
+.most3:hover button 
+{background-color: #0071f8;}
+
+.most3:hover h3 
+{color: #0071f8;}
+
+
+.most4
+{width: 196px; height: 304px; background-color: white; position: absolute;  border-radius: 25px; text-align: center; top: 0%; right: 34%;}
+
+.mpst4:hover h3
+{color: #0071f8;}
+
+.most4 img
+{border-radius: 25px; height: 100%; width: 100%;}
+
+.most4 h5
+{color: gray; position: absolute; left: 30%; bottom: 22%;} 
+
+.most4 h3
+{position: absolute; left: 15%; bottom : 12%; transition: 0.3s;} 
+
+.most4 button
+{ padding: 10px 15px; background-color: lightcoral; border-radius: 25px; border: none; color: white; position: absolute; left: 25%; bottom: -5%; transition: 0.3s;}
+
+.most4:hover button 
+{background-color: #0071f8;}
+
+.most4:hover h3 
+{color: #0071f8;}
+
+
+.most5
+{width: 196px; height: 304px; background-color: white; position: absolute;  border-radius: 25px; text-align: center; top: 0%; right: 17%;}
+
+.mpst5:hover h3
+{color: #0071f8;}
+
+.most5 img
+{border-radius: 25px; height: 100%; width: 100%;}
+
+.most5 h5
+{color: gray; position: absolute; left: 30%; bottom: 22%;} 
+
+.most5 h3
+{position: absolute; left: 15%; bottom : 12%; transition: 0.3s;} 
+
+.most5 button
+{ padding: 10px 15px; background-color: lightcoral; border-radius: 25px; border: none; color: white; position: absolute; left: 25%; bottom: -5%; transition: 0.3s;}
+
+.most5:hover button 
+{background-color: #0071f8;}
+
+.most5:hover h3 
+{color: #0071f8;}
+
+
+.most6
+{width: 196px; height: 304px; background-color: white; position: absolute;  border-radius: 25px; text-align: center; top: 0%; right: 0%;}
+
+.mpst6:hover h3
+{color: #0071f8;}
+
+.most6 img
+{border-radius: 25px; height: 100%; width: 100%;}
+
+.most6 h5
+{color: gray; position: absolute; left: 30%; bottom: 22%;} 
+
+.most6 h3
+{position: absolute; left: 15%; bottom : 12%; transition: 0.3s;} 
+
+.most6 button
+{ padding: 10px 15px; background-color: lightcoral; border-radius: 25px; border: none; color: white; position: absolute; left: 25%; bottom: -5%; transition: 0.3s;}
+
+.most6:hover button 
+{background-color: #0071f8;}
+
+.most2:hover h3 
+{color: #0071f8;}
+
+
+/* categories   */
+
+.categories
+{ height: 400px; margin-top: 120px; position: relative;}
+
+.cat
+{height: 400px;  padding-left: 17%; padding-right: 17%;}
+
+.title h5
+{color: lightcoral; text-align: center;}
+
+.title h1
+{text-align: center; }
+  
+.photo
+{height: 400px;  margin-top: 50px; position: relative; }
+
+.c1
+{height: 280px; width:235px; background-color: #008af8; border-radius: 25px; position: absolute; left: 0%;}
+
+.c1 img
+{border-radius: 25px; position: absolute; bottom: 0%;}
+
+.c1 h3
+{position: absolute;  top: 20px; left: 35%; color: white;}
+
+.c2
+{height: 280px; width:235px; background-color: #008af8; border-radius: 25px; position: absolute; left: 20.5%;}
+
+.c2 img
+{border-radius: 25px; position: absolute; bottom: 0%;}
+
+.c2 h3
+{position: absolute;  top: 20px; left: 35%; color: white;}
+
+.c3
+{height: 280px; width:235px; background-color: #008af8; border-radius: 25px; position: absolute; left: 41%;}
+
+.c3 img
+{border-radius: 25px; position: absolute; bottom: 0%;}
+
+.c3 h3
+{position: absolute;  top: 20px; left: 35%; color: white;}
+
+.c4
+{height: 280px; width:235px; background-color: #008af8; border-radius: 25px; position: absolute; right: 20.5%;}
+
+.c4 img
+{border-radius: 25px; position: absolute; bottom: 0%;}
+
+.c4 h3
+{position: absolute;  top: 20px; left: 35%; color: white;}
+
+.c5
+{height: 280px; width:235px; background-color: #008af8; border-radius: 25px; position: absolute; right: 0%;}
+
+.c5 img
+{border-radius: 25px; position: absolute; bottom: 0%;}
+
+.c5 h3
+{position: absolute;  top: 20px; left: 35%; color: white;}
+
+
+/* Last 2 */
+
+.last
+{margin-top: 150px; position: relative; text-align: center;}
+
+
+.l1 img
+{border-radius: 25px;}
+
+.l2
+{height: 450px; width: 360px; background-color: #f7f7f7; border-radius: 25px; padding: 80px; position: absolute; top: 20%; left: 17%;} 
+
+.l2 h5
+{text-align: left; color: lightcoral; padding-bottom: 0px;}
+
+.l2 h1
+{font-size: 36px;  text-align: left; padding-bottom: 30px;}
+
+.l2 h1 span
+{color: #008AF8;}
+
+.l2 p
+{text-align: justify; padding-bottom: 50px;}
+
+.l2 button
+{background-color: lightcoral;  position: absolute; border: none; padding: 20px 30px; color: white; border-radius: 25px; margin-left: -35%; transition: 0.3s; }
+
+.l2 button:hover
+{background-color: #0071f8;}
+
+.l3
+{height: 350px; width: 360px; background-color: #f7f7f7; border-radius: 25px; padding: 80px; position: absolute; top: 40%; right: 17%;}
+
+.l3 h5
+{text-align: left; color: lightcoral; padding-bottom: 0px; }
+
+
+.l3 h1
+{font-size: 36px;  text-align: left; padding-bottom: 30px;}
+
+.l3 h1 span
+{color: #008AF8;}
+
+.l3 input
+{border: none; padding: 20px 40px; border-radius: 25px; position: absolute; left: 15%;}
+
+.l3 ::placeholder
+{font-size: 15px;}
+
+.l3 button
+{background-color: lightcoral;  position: absolute; border: none; padding: 20px 30px; color: white; border-radius: 25px; margin-left: 5%; transition: 0.3s; }
+
+.l3 button:hover
+{background-color: #0071f8;}
+
+
+/* Footer */
+
+.f
+{margin-top: 15%; position: relative; }
+
+.f img
+{width: 100%;  border-radius: 150px 150px 0px 0px;}
+
+.f p
+{color: white; font-size: 16px; position: absolute;  top: 20%; left: 34.5%; right: 34.5%;}
+
+
+
+
+
