@@ -1,0 +1,297 @@
+@media(max-width:700px)
+{
+    .container .main-menu 
+    {
+        background-color: transparent;
+        margin-top: -3%;
+    }
+    .container .main-menu .navbar 
+    {
+        width: 100%;
+        background-color:  rgba(56, 63, 81, 0.9);
+        padding: 15px 10%;
+        height: 75px;
+    }
+    .container .main-menu .navbar .logo
+    {
+        font-size: 15px;
+        
+    }
+    .container .main-menu .menulist
+    {
+        display: none;
+    }
+    .container i
+    {
+        display: block;
+        position: absolute;
+        top: 45%;
+        font-size: 25px;
+        right: 10%;
+    }
+    .container .fa-xmark
+    {
+        display: none;
+    }
+    .main-contact .contant .box2 textarea
+    {
+        width: 90%;
+    }
+    .container .content
+    {
+        width: 100%;
+    }
+    .container .content h1
+    {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .container .content h4
+    {
+        width: 80%;
+        font-size: 17px;
+        padding-bottom: 30px;
+    }
+
+    /* -------------- CLIENT -------------- */
+
+    .main-client
+    {
+        width: 100%;
+    }
+    .main-client .client
+    {
+        flex-direction: column;
+        width: 100%;
+        padding: 5px;
+    }
+    .main-client .client a
+    {
+        height: 100%;
+        width: 50%;
+    }
+    .main-client .client a img
+    {
+        height: 100%;
+        width: 100%;
+        padding: 15px 0px;
+    }
+
+    /* -------------- ABOUT -------------- */
+
+    .about 
+    {
+        flex-direction: column;
+    }
+    .about .con1
+    {
+        width: 100%;
+    }
+    .about .con2
+    {
+        width: 100%;
+    }
+    .about .con2 .subcon
+    {
+        flex-direction: column;
+    }
+    .about .con2 .subcon .box1
+    {
+        width: 100%;
+    }
+
+    /* -------------- NUMBER -------------- */
+
+    .main-number .number 
+    {
+        width: 70%;
+        flex-wrap: wrap;
+        padding: 40px 40px;
+    } 
+    .main-number .number h5
+    {
+        margin: -40px 0px 10px 50px;
+    }
+
+    /* -------------- SERICES -------------- */
+
+
+    .main-services .box-content
+    {
+        flex-direction: column;
+    }
+    .main-services .box-content .box1
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main-services .box-content .box2
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main-services .box-content .box3
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main-services .box-content-2
+    {
+        flex-direction: column;
+    }
+    .main-services .box-content-2 .box1
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main-services .box-content-2 .box2
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main-services .box-content-2 .box3
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* -------------- NUMBER -------------- */
+
+    .main-action  .action h1
+    {
+        font-size: 28px;
+    }    
+    .main-action  .action p
+    {
+        font-size: 15px;
+    }    
+
+   /* -------------- TESTIMONIAL -------------- */
+
+
+   .main-testimonials .content .swiper-slide .box1
+   {
+    width: 100%;
+   }
+
+
+   /* -------------- PORTFOLIO -------------- */
+
+   .main-Portfolio .options
+   {
+    width: 50%;
+   }
+   
+   .main-Portfolio .main-image .image-1,.image-2,.image-3
+   {
+    flex-direction: column;
+   }
+   .main-Portfolio .main-image .image-1 .box1
+   {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -80px;
+   }
+   .main-Portfolio .main-image .image-2 .box1
+   {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -80px;
+   }
+   .main-Portfolio .main-image .image-3 .box1
+   {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -80px;
+   }
+   
+   /* -------------- TEAM -------------- */
+
+   .main-team .members
+   {
+    flex-direction: column;
+   }
+   .main-team .members .box1
+   {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 25px;
+   }
+   .main-team .members .box1 .con
+   {
+    padding: 40px 0px 20px;
+   }
+
+    /* -------------- PRICING -------------- */
+
+    .main-pricing .content
+    {
+        flex-direction: column;
+    }
+    .main-pricing .content .box1
+    {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    /* -------------- CONTACT -------------- */
+
+    .main-contact .contant 
+    {
+        flex-direction: column;
+    }
+    .main-contact .contant .box1
+    {
+        width: 100%;
+    }
+    .main-contact .contant .box1 .social
+    {
+        flex-direction: column;
+    }
+    .main-contact .contant .box1 .social .email
+    {
+        width: 100%;
+    }
+    .main-contact .contant .box1 .social .call
+    {
+        width: 100%;
+    }
+    .main-contact .contant .box2
+    {
+        width: 100%;
+    }
+
+
+
+    /* -------------- FOOTER -------------- */
+    
+    .main-footer .footer
+    {
+        flex-direction: column;
+    }
+    .main-footer .footer .box1,.box2,.box3,.box4
+    {
+        width: 100%;
+    }
+    .main-footer .footer .box1,.box2,.box3
+    {
+        margin-bottom: 20px;
+    }
+
+    .main-footer .end
+    {
+        flex-direction: column;
+    }
+    .main-footer .end .contant
+    {
+        width: 60%;
+        text-align: center;
+        padding: 10px;
+    }
+    .main-footer .end .social 
+    {
+        margin-bottom: 5%;
+    }
+
+}
