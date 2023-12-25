@@ -1,0 +1,355 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+
+.bar i {
+    display: none;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
+.main .menu {
+    width: 15%;
+}
+
+.main .menubar {
+    width: 15%;
+    background-color: #64CCC5;
+    height: 100vh;
+    padding: 120px 0px;
+    position: fixed;
+}
+
+.main .menubar ul li a {
+    text-decoration: none;
+    color: #04364A;
+    font-size: 20px;
+}
+
+.main .menubar ul li {
+    list-style: none;
+    padding: 15px 0px;
+    transition: 0.3s;
+}
+
+.main .menubar ul li i {
+    font-size: 20px;
+    padding: 0px 25px;
+}
+
+.main .menubar ul li:hover {
+    background-color: #DAFFFB;
+    color: #176B87;
+}
+
+.main .content {
+    width: 85%;
+    padding: 25px;
+}
+
+.main .content .navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #04364A;
+    padding: 0px 30px;
+    border-radius: 25px;
+    color: #DAFFFB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .content .navbar .start {
+    font-size: 17px;
+}
+
+.main .content .navbar .search {
+    font-size: 17px;
+}
+
+.main .content .navbar .search input {
+    padding: 12px 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #DAFFFB;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    outline: none;
+    font-size: 15px;
+}
+
+.main .content .navbar .search i {
+    position: absolute;
+    color: #04364A;
+    z-index: 2;
+    padding: 12px 15px;
+}
+
+
+.main .content .navbar .user img {
+    height: 50px;
+    width: 50px;
+}
+
+.payments {
+    width: 100%;
+    height: 300px;
+    background-color: #04364A;
+    margin-top: 20px;
+    padding: 25px 30px;
+    border-radius: 25px;
+    color: #DAFFFB;
+}
+
+.payments .datas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payments .datas .box {
+    width: 18%;
+    height: 180px;
+    background-color: #64CCC5;
+    padding: 20px 15px;
+    color: #04364A;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+
+
+.payments .datas .box h3 {
+    padding: 7px 0px;
+}
+
+
+.table {
+    width: 100%;
+    height: 300px;
+    background-color: #04364A;
+    margin-top: 20px;
+    padding: 25px 30px;
+    border-radius: 25px;
+    color: #DAFFFB;
+    overflow: auto;
+    border-collapse: 0px;
+}
+
+.table .color {
+    background-color: #64CCC5;
+}
+
+.table tr td {
+    padding: 15px 60px;
+    font-size: 17px;
+}
+
+.table tr td a {
+    text-decoration: none;
+    color: white;
+}
+
+.table .datas table .heading {
+    top: 0%;
+    position: sticky;
+    background-color: #64CCC5;
+    z-index: 2;
+}
+
+.charts {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.charts .chart-1 {
+    width: 45%;
+    height: 150px;
+}
+
+.charts .chart-2 {
+    width: 45%;
+    height: 150px;
+
+}
+
+/* chart-2 */
+
+
+.wrapper {
+    margin: 15px auto;
+    max-width: 1100px;
+}
+
+.container-calendar {
+    background: #ffffff;
+    padding: 15px;
+    max-width: 475px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.button-container-calendar button {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #00a2b7;
+    color: #fff;
+    border: 1px solid #0aa2b5;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.table-calendar {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-calendar td,
+.table-calendar th {
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    vertical-align: top;
+}
+
+.date-picker.selected {
+    font-weight: bold;
+    outline: 1px dashed #00BCD4;
+}
+
+.date-picker.selected span {
+    border-bottom: 2px solid currentColor;
+}
+
+/* sunday */
+.date-picker:nth-child(1) {
+    color: red;
+}
+
+/* friday */
+.date-picker:nth-child(6) {
+    color: green;
+}
+
+#monthAndYear {
+    text-align: center;
+    margin-top: 0;
+}
+
+.button-container-calendar {
+    position: relative;
+    margin-bottom: 1em;
+    overflow: hidden;
+    clear: both;
+}
+
+#previous {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+.footer-container-calendar {
+    margin-top: 1em;
+    border-top: 1px solid #dadada;
+    padding: 10px 0;
+}
+
+.footer-container-calendar select {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #ffffff;
+    color: #585858;
+    border: 1px solid #bfc5c5;
+    border-radius: 3px;
+    padding: 5px 1em;
+}
+
+/* ------------------------- menu */
+h1 {
+    margin: 0;
+    color: #ddd;
+    padding: 10px;
+    border-bottom: 1px solid #666
+}
+
+button:focus {
+    outline: none
+}
+
+aside {
+    background: #1a1d23;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    transition: .3s;
+    left: -250px;
+    top: 5px;
+    transition-timing-function: cubic-bezier(0.9, 0, 1, 1);
+    z-index: 5;
+}
+
+aside.close {
+    left: 0;
+    transition: .3s;
+    transition-timing-function: cubic-bezier(0.9, 0, 1, 1);
+}
+
+nav a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px
+}
+
+nav a:hover {
+    background: #313640
+}
+
+aside button {
+    border: none;
+    background: none;
+    position: absolute;
+    right: -60px;
+    top: 7px;
+    font-size: 30px;
+    transform: rotate(90deg);
+    display: inline-block;
+    cursor: pointer
+}
+
+
+aside .menu ul li a {
+    text-decoration: none;
+    color: #00BCD4;
+    font-size: 20px;
+}
+
+aside .menu ul li {
+    list-style: none;
+    padding: 15px 0px;
+    transition: 0.3s;
+}
+
+aside .menu ul li i {
+    font-size: 20px;
+    padding: 0px 25px;
+    color: #00BCD4;
+}
+
+aside .menu ul li:hover {
+    background-color: #DAFFFB;
+    color: #04364A;
+}
