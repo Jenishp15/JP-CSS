@@ -1,0 +1,165 @@
+*
+{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+body
+{font-family: 'poppins'; background-color: #dddbdb; position: relative;}
+ 
+.header
+{width: 100%; position: absolute; }
+
+.navbar
+{width: 80%; height: 80px; margin: auto; display: flex; justify-content: space-between; line-height: 80px; }
+
+.logo
+{font-size: 22px; font-family: poppins;  }
+
+.nav-content
+{display: none; z-index: 3;  font-family: poppins;}
+
+.nav-content ul
+{list-style: none;}
+
+.nav-content ul li
+{padding: 10px 10px; font-size: 12px; cursor: pointer; font-weight: 500;}
+
+.nav-content ul li .cont
+{color: #d5c455;}
+
+.nav-content ul li a
+{text-decoration: none; color: black; }
+
+.nav-con:hover .nav-content
+{display: block; position: absolute; right: 10%; background-color: white; padding: 10px 20px; box-shadow: 0px 0px 10px #dddbdb}
+
+.main
+{width: 100%; display: flex; height: 99vh; }
+
+.main .box1
+{width: 50%; background-color: #f0f0f0;}
+
+.main .box1 .con1 
+{width: 60%; margin: auto; margin-top: 30%;}
+
+.main .box1 .con1 h3
+{color: #d5c455; padding-bottom: 20px;}
+
+.main .box1 .con1 h1
+{font-size: 80px; font-weight: 900; line-height:80px; padding-bottom: 20px;}
+
+.main .box1 .con1 .btn1
+{background-color: #d5c455; padding: 15px 20px; border: none; outline:none}
+
+.main .box1 .con1 .btn1 a
+{color: white; text-decoration: none; font-weight: bold;}
+
+.main .box1 .con1 .btn2
+{background-color: white; padding: 15px 20px; border: none; outline:none}
+
+.main .box1 .con1 h6
+{margin-top:40%; color: grey;  font-size: 11px;}
+
+.main .box1 .con1 h6 span
+{color: #d5c455;}
+
+.main .box1 .con1 .btn2 a
+{color: black; text-decoration: none; font-weight: bold;}
+
+.main .box2
+{width: 50%; background-color: #d5c455;}
+
+.main .box2 img
+{height: 100%; width: 100%;padding: 10% 10% 0%;}
+
+
+@media(max-width:480px)
+{
+         
+    .navbar
+    {
+        background-color: #222222;
+        width: 100%;
+        color: white;
+        padding: 0px 20px;
+        z-index: 2;
+    }
+
+    .nav-con:hover .nav-content
+    {
+        right: 0%;
+        width: 100%;
+        background-color: #222222;
+        box-shadow: none;
+    }
+
+    .nav-con:hover .nav-content .cont
+    {
+        color: #d5c455;
+    }
+
+    .nav-con:hover .nav-content  a
+    {
+        color: white;
+    }
+
+    .main
+    {
+        width: 100%;
+    }
+
+    .main .box1
+    {
+        width: 0%;
+    }
+    .main .box1 .con1
+    {
+        width: 95%;
+        background: transparent;
+        z-index: 1;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        left: 3%;
+        top: 25%;
+    }
+
+
+    .main .box1 .con1 h3
+    {
+        font-size: 15px;
+        margin-top: -10%;
+    }
+
+    .main .box1 .con1 h1
+    {
+        margin-top: -10%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .main .box1 .con1 .btn1 
+    {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    .main .box1 .con1 .btn2
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .main .box1 .con1 h6
+    {
+        font-size: 12px;
+        margin-top: 60%;
+        color: white;
+    }
+
+    .main .box2 
+    {
+        width: 100%;
+        background: transparent;
+    }
+
+    }

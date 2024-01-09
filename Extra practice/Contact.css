@@ -1,0 +1,221 @@
+*
+{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+body
+{font-family: 'poppins'; background-color: #f7f7f7;}
+
+.header
+{width: 100%;}
+
+.navbar
+{width: 80%; height: 80px; margin: auto; display: flex; justify-content: space-between; line-height: 80px; padding: 0px 25px;}
+
+.logo
+{font-size: 22px; font-weight: 800; }
+
+.navbar .nav-con
+{z-index: 2;}
+
+.nav-content
+{display: none;  font-family: poppins; }
+
+.nav-content ul
+{list-style: none;}
+
+.nav-content ul li
+{padding: 10px 10px; font-size: 12px; font-weight: 500;}
+
+.nav-content ul li .cont
+{color: #d5c455;}
+
+.nav-content ul li a
+{text-decoration: none; color: black; }
+
+.nav-con:hover .nav-content
+{display: block; position: absolute; right: 10%; background-color: white; padding: 10px 20px; box-shadow: 0px 0px 10px #dddbdb}
+
+
+
+/* contect */
+
+.contect
+{width: 80%; margin: auto; text-align: center;padding-top: 7%; }
+
+.contect h5
+{color: rgb(168, 165, 165); font-weight: 500;}
+
+.contect h1
+{font-size: 40px;}
+
+/* content */
+
+.content
+{width: 80%;margin: auto;margin-top: 5%; display: flex;}
+
+.content .con 
+{width: 50%; background-color: #fff;padding: 50px; }
+
+.content .con h2
+{padding: 15px 0px; font-weight: 900;}
+
+.content .con h4
+{color: grey; font-weight: 500; padding: 0px 0px 15px;}
+
+
+.content .con .info
+{display: flex;justify-content: space-between; margin-bottom: 7%;}
+
+.content .con .add
+{width: 30%;}
+
+.content .con .add h4
+{font-weight: 500; font-size: 15px;}
+
+.content .con .mail
+{width: 32%;}
+
+.content .con .mail h4
+{font-weight: 500; font-size: 15px; color: black;}
+
+.content .con .phone
+{width: 32%;}
+
+.content .con .phone h4
+{font-weight: 500; font-size: 15px; color: black;}
+
+
+input
+{border:none;border-bottom: 1px solid lightgrey; width:100%;
+padding: 15px 5px;outline: none;margin-bottom: 1%;}
+
+input::placeholder
+{font-size: 15px;color: grey;}
+
+input:hover
+{border-bottom:1px solid #d5c455; outline: none;}
+
+textarea
+{border:none;border-bottom: 1px solid lightgrey; width:100%;
+padding: 15px 5px;outline: none;}
+
+textarea::placeholder
+{font-size: 15px;color: grey;}
+
+textarea:hover
+{border-bottom:1px solid #d5c455; outline: none;}
+
+.content .con .btn a
+{padding: 10px; background-color: #d5c455;text-decoration: none;color: white;font-size: 12px; margin-top: 70%;}
+
+.content .con h3
+{margin-top: 15%; font-weight: 500; font-size: 20px;}
+
+.content .con .last 
+{text-decoration: none; display: flex; padding: 10px 0px;} 
+
+.content .con .last a
+{text-decoration: none; padding-right: 20px; font-size: 12px; color: black; font-weight: bold}
+
+.content .con2
+{background-color: lightgrey; width: 50%;height: 753px;}
+
+.content .con2 iframe
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* footer */
+
+footer {transform: translate(-50%, -50%);position: absolute;top:140%;left: 50%;text-align: center;padding-bottom: 30px;
+}
+
+footer p {
+    color: gray;
+    font-size: 13px;
+}
+
+footer span {
+    text-decoration: none;
+    color: #D5C455;
+}
+
+
+
+@media(max-width:480px)
+{
+    .navbar
+    {
+        background-color: #222222;
+        width: 100%;
+        color: white;
+        padding: 0px 20px;
+        z-index: 2;
+    }
+
+    .nav-con:hover .nav-content
+    {
+        right: 0%;
+        width: 100%;
+        background-color: #222222;
+        box-shadow: none;
+    }
+
+    .nav-con:hover .nav-content .cont
+    {
+        color: #d5c455;
+    }
+
+    .nav-con:hover .nav-content  a
+    {
+        color: white;
+    }
+    
+    .content .con 
+    {
+        padding: 25px;
+    }
+
+    .content .con h4 
+    {
+        font-size: 15px;
+    }
+
+    .content .con .info
+    {
+
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .content .con .info .add
+    {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .content
+    {
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .content .con
+    {
+        width: 100%;
+    }
+
+    .content .con2
+    {
+        width: 100%;
+        height: 250px;
+    }
+
+    footer
+    {
+        top: 220%;
+        width: 100%;
+    }
+}
