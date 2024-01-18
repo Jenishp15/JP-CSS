@@ -1,0 +1,797 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    transform: translate(0.3s);
+    font-family: poppins;
+}
+
+.header
+{
+    width: 100%;
+    background-color: #3b5b50;
+    height: 620px;
+    position: relative;
+}
+
+
+li::after
+{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: yellow;
+    display: block;
+    margin: start;
+    margin-left: 15px;
+    transition: all 0.3s;
+}
+.header nav ul li:hover::after
+{
+    width: 72%;
+}
+
+nav .icon
+{
+    display: flex;
+}
+nav .icon li
+{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.header .content
+{
+    display: flex;
+    width: 80%;
+    margin: auto;   
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+
+.header .content .text h1
+{
+    color: white;
+    font-size: 60px;
+}
+.header .content .text h4
+{
+    color: #ffffff8c;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.header .content .btn
+{
+    display: flex;
+}
+.header .content .btn .shop
+{
+    background-color: #f9bf29;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.header .content .btn .shop:hover
+{
+    background-color: #ebb327;
+}
+.header .content .btn .explore
+{
+    background-color: transparent;
+    color: white;
+    border: 2px solid grey;
+    outline: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 15px;
+    transition: 0.3s;
+    margin-left: 5%;
+}
+.header .content .btn .explore:hover
+{
+    border: 2px solid white;
+}
+
+.header .content .sofa .dot
+{
+    margin: -5% 0% 0% 85%;
+}
+.header .content .sofa .sofas
+{
+    margin: -33% 0% 0% 12%;
+}
+
+
+section
+{
+    background-color: #e9ecef;
+}
+/* ----------- CHAIRS ------------- */
+
+.chairs
+{
+    width: 100%;
+    padding-top: 100px;
+}
+.chairs .content
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.chairs .content .text
+{
+    width: 25%;
+}
+.chairs .content .text h2
+{
+    font-size: 35px;
+    font-weight: 500;
+}
+.chairs .content .text h5
+{
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6a6a6a;
+}
+.chairs .content .text button
+{
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    background-color: #2f2f2f;
+    color: white;
+}
+.chairs .content .chair2
+{
+    width: 24%;
+    text-align: center;
+}
+.chairs .content .chair2 img
+{
+    width: 100%;
+    height: 100%;
+}
+.chairs .content .chair2 h4
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: #2f2f2f;
+}
+.chairs .content .chair2 h3
+{
+    font-size: 18px;
+    color: #2f2f2f;
+    margin-bottom: 20px;
+}
+.chairs .content .chair2:hover
+{
+    border-radius: 10px;
+    background-color:rgb(32, 178, 170,0.15) ;
+}
+.chairs .content .chair2:hover span
+{
+    opacity: 1;
+}
+.chairs .content .chair2 span
+{
+    margin-top: 15px;
+    padding: 2px 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #2f2f2f;
+    color: white;
+    opacity: 0;
+}
+
+.chairs .content .chair3
+{
+    width: 24%;
+    text-align: center;
+}
+
+.chairs .content .chair3 img
+{
+    width: 100%;
+    height: 100%;
+}
+.chairs .content .chair3 h4
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: #2f2f2f;
+}
+.chairs .content .chair3 h3
+{
+    font-size: 18px;
+    color: #2f2f2f;
+    margin-bottom: 20px;
+}
+.chairs .content .chair3:hover
+{
+    border-radius: 10px;
+    background-color:rgb(32, 178, 170,0.15) ;
+}
+.chairs .content .chair3:hover span
+{
+    opacity: 1;
+}
+.chairs .content .chair3 span
+{
+    margin-top: 15px;
+    padding: 2px 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #2f2f2f;
+    color: white;
+    opacity: 0;
+}
+
+.chairs .content .chair4
+{
+    width: 24%;
+    text-align: center;
+}
+.chairs .content .chair4 img
+{
+    width: 100%;
+    height: 100%;
+}
+.chairs .content .chair4 h4
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: #2f2f2f;
+}
+.chairs .content .chair4 h3
+{
+    font-size: 18px;
+    color: #2f2f2f;
+    margin-bottom: 20px;
+}
+.chairs .content .chair4:hover
+{
+    border-radius: 10px;
+    background-color:rgb(32, 178, 170,0.15) ;
+}
+.chairs .content .chair4:hover span
+{
+    opacity: 1;
+}
+.chairs .content .chair4 span
+{
+    margin-top: 15px;
+    padding: 2px 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #2f2f2f;
+    color: white;
+    opacity: 0;
+}
+
+/* -------------- why --------------  */
+
+.why
+{
+    width: 80%;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.why .text
+{
+    width: 49%;
+}
+.why .text .t1 h2
+{
+    font-size: 35px;
+    font-weight: 500;
+}
+.why .text .t1 h5
+{
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6a6a6a;
+}
+
+.why .text .t2
+{
+    margin-top: 20px;
+    display: flex;
+}
+.why .text .t2 .delivery,.shopping
+{
+    width: 49%;
+}
+.why .text .t2 .delivery i
+{
+    margin-top: 20px;
+    font-size: 35px;
+}   
+.why .text .t2 .delivery .title
+{
+    color: #2f2f2f;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-size: 17px;
+}
+.why .text .t2 .delivery h5
+{
+    color: #6a6a6a;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.why .text .t2 .shopping i
+{
+    margin-top: 20px;
+    font-size: 35px;
+}   
+.why .text .t2 .shopping .title
+{
+    color: #2f2f2f;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-size: 17px;
+}
+.why .text .t2 .shopping h5
+{
+    color: #6a6a6a;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+.why .text .t3
+{
+    margin-top: 20px;
+    display: flex;
+}
+.why .text .t3 .wheel,.revers
+{
+    width: 49%;
+}
+.why .text .t3 .wheel i
+{
+    margin-top: 20px;
+    font-size: 35px;
+}   
+.why .text .t3 .wheel .title
+{
+    color: #2f2f2f;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-size: 17px;
+}
+.why .text .t3 .wheel h5
+{
+    color: #6a6a6a;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.why .text .t3 .revers i
+{
+    margin-top: 20px;
+    font-size: 35px;
+}   
+.why .text .t3 .revers .title
+{
+    color: #2f2f2f;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-size: 17px;
+}
+.why .text .t3 .revers h5
+{
+    color: #6a6a6a;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.why .image
+{
+    width: 49%;
+}
+.why .image .dot
+{
+    margin-top: -100px;
+    color: #2f2f2f;
+}
+.why .image .sofa
+{
+    height: 550px;
+    width: 80%;
+    border-radius: 25px;
+    margin: -150px 0px 0px 120px;
+}
+
+
+/* ------------ design ------------  */
+
+.design
+{
+    width: 80%;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.design .image
+{
+    width: 58%;
+    position: relative;
+}
+.design .image .dot
+{
+    position: absolute;
+    top: -80px;
+}
+.design .image .grid-1
+{
+    position: absolute;
+    height: 600px;
+    width: 50%;
+    border-radius: 15px;
+    left: 120px;
+    top: 0px;
+}
+.design .image .grid-3
+{
+    position: absolute;
+    height: 450px;
+    width: 40%;
+    border-radius: 15px;
+    left: 460px;
+    top: 220px;
+}
+.design .image .grid-2
+{
+    position: absolute;
+    height: 200px;
+    width: 25%;
+    border-radius: 15px;
+    right: 70px;
+    top: 0px;
+}
+
+.design .content
+{
+    width: 40%;
+}
+.design .content h2
+{
+    font-size: 37px;
+    font-weight: 500;
+}
+.design .content h5
+{
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6a6a6a;
+}
+.design .content .t1,.t2 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.design .content .t1 .first 
+{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.design .content .t2 .second
+{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.design .content button
+{
+    margin-top: 50px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #2f2f2f;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* ------------- other chair ------------- */
+
+.other-chair
+{
+    width: 80%;
+    margin: 15% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-chair img
+{
+    height: 150px;
+    width: 150px;
+}
+.other-chair .chair-1
+{
+    display: flex;
+    align-items: center;
+}
+.other-chair .chair-1 .text h4
+{
+    font-size: 17px;
+    color: #2f2f2f;
+}
+.other-chair .chair-1 .text h5
+{
+    font-size: 15px;
+    color: #2f2f2f;
+    font-weight: 500;
+}
+.other-chair .chair-1 .text a
+{
+    text-decoration: none;
+    color: #6a6a6a;
+    font-size: 15px;
+}
+
+/* ------------- blog ------------- */
+
+.blog
+{
+    width: 80%;
+    margin: 100px auto;
+    padding-bottom: 250px;
+}
+.blog .title
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.blog .title h2
+{
+    font-size: 35px;
+    font-weight: 500;
+}
+.blog .title a
+{
+    color: #6a6a6a;
+    font-weight: 500;
+}
+.blog .title a:hover
+{
+    text-decoration: none;
+}
+.blog .main-img
+{
+    display: flex;
+    justify-content: space-between;
+}
+.blog .main-img img
+{
+    height: 300px;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.blog .main-img .image
+{
+    width: 32%;
+}
+.blog .main-img .image h3
+{
+    font-size: 16px;
+    color: #2f2f2f;
+    font-weight: 600;
+}
+.blog .main-img .image h4
+{
+    font-size: 16px;
+    color: #2f2f2f;
+    font-weight: 500;
+}
+.blog .main-img .image h4 span
+{
+    color: #6a6a6a;
+    font-weight: 500;
+}
+
+
+/* ---------- footer ---------- */
+.footer
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.footer .head
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .head img
+{
+    height: 350px;
+    margin-top: -220px;
+}
+.footer .head .about h3
+{
+    font-size: 20px;
+    color: #3b5b50;
+    font-weight: 500;
+}
+.footer .head .about h3 i
+{
+    padding-right: 10px;
+}
+.footer .head .about input
+{
+    margin-top: 10px;
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: 1px solid #6a6a6a ;
+    margin-right: 10px;
+}
+.footer .head .about button
+{
+    padding: 10px 25px;
+    border-radius: 15px;
+    outline: none;
+    color: white;
+    border: none;
+    background-color: #3b5b50;
+    font-size: 20px;
+}
+
+.midal
+{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.midal .box1
+{
+    width: 35%;
+    margin-left: -5%;
+}
+.midal .box1 h2
+{
+    font-size: 35px;
+    color: #3b5b50;
+}
+.midal .box1 h5
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: #6a6a6a;
+    margin:10px 0px 40px 0px ;
+}
+.midal .box1 span
+{
+    padding: 10px 12px;
+    border-radius: 50%;
+    background-color: #d3dbd8;
+    margin: 10px 5px 10px 0px;
+    color: #3b5b50;
+}
+.midal .main-box-2,.main-box-3
+{
+    width: 25%;
+    display: flex;
+}
+
+.midal .box2,.box3,.box4,.box5
+{
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 0%;
+} 
+
+.midal  li
+{
+    list-style: none;
+    transition: 0.3s;
+}
+.midal  li:hover
+{
+    color: #aab6b2;
+}
+.line
+{
+    width: 80%;
+    height: 1px;
+    background-color: #aab6b2;
+    margin: 80px auto 15px;
+}
+.last
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.last h5
+{
+    color: #6a6a6a;
+    font-size:13px;
+    font-weight: 500;
+}
+.last .term
+{
+    display: flex;
+    justify-content: space-between;
+}
+.last .term h5
+{
+    padding-left: 15px;
+}
+.last .term h5:hover
+{
+    color: #aab6b2;
+}
+
+
+.swiper {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: #aab6b2;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .swiper-slide  h5
+  {
+    width: 60%;
+    font-size: 18px;
+    margin: 10px auto;
+    color: #6a6a6a;
+    font-weight: 500;
+  }
+  .swiper-slide  h3
+  {
+    color: #2f2f2f;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .swiper-slide  h4
+  {
+    color: #6a6a6a;
+    font-weight: 500;
+    font-size: 16px;
+  }

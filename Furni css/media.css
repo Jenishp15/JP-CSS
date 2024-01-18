@@ -1,0 +1,272 @@
+@media(max-width:480px)
+{
+    .header nav ul li:hover::after
+    {
+        width: 20%;
+        margin-left: 0%;
+    }
+
+    nav .icon
+    {
+        flex-direction: column;
+        margin-left: -2px;
+    }
+    .header .main-navbar .navbar .icon li
+    {
+        margin: 15px 0px;
+    }
+    .header .main-navbar .bar:hover .navbar
+    {
+        margin-top: 300px;
+    }
+
+    .header
+    {
+        height: 100%;
+    }
+    .header .content
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+    .header .content .text
+    {
+        margin: 0px 50px;
+    }
+    .header .content .text h1
+    {
+        font-size: 25px;    
+    }
+    .header .content .text h4
+    {
+        font-size: 12px;    
+    }
+    .header .content .sofa .dot
+    {
+        height: 200px;
+        width: 200px;
+        margin: 10% 0% 0% 50%;
+    }
+    .header .content .sofa .sofas
+    {
+        height: 350px;
+        width: 400px;
+        margin: -40% 0% 0% 5%;
+    }
+
+    .chairs .content
+    {
+        flex-direction: column;
+    }
+
+    .chairs .content .text
+    {
+        width: 100%;
+    }
+    .chairs .content .text h2
+    {
+        font-size: 22px;
+    }
+    .chairs .content .text h5
+    {
+        font-size: 15px;
+    }
+    .chairs .content .chair2
+    {
+        width: 100%;
+    }
+    .chairs .content .chair3
+    {
+        width: 100%;
+    }
+    .chairs .content .chair4
+    {
+        width: 100%;
+    }
+
+    .why
+    {
+        flex-direction: column;
+    }
+    .why .text
+    {
+        width: 100%;
+    }
+    .why .text .t1 h2
+    {
+        font-size: 22px;
+    }
+    .why .text .t2 h5
+    {
+        font-size: 15px;
+    }
+    .why .image
+    {
+        width: 100%;
+    }
+    .why .image .dot
+    {
+        margin-top: 20px;
+        color: #2f2f2f;
+    }
+    .why .image .sofa
+    {
+        width: 100%;
+        margin: -120px 0px 0px;
+    }
+    .design
+    {
+        flex-direction: column;
+    }
+    .design .image
+    {
+        width: 100%;
+    }
+    .design .content
+    {
+        width: 100%;
+        margin-top: 550px;
+    }
+    .design .image .dot
+    {
+        left: -150px;
+    }
+    .design .image .grid-1
+    {
+        height: 300px;
+        width: 240px;
+        left: 0;
+    }
+    .design .image .grid-2
+    {
+        height: 130px;
+        width: 130px;
+        right: 0px;
+    }
+    .design .image .grid-3
+    {
+        left: 150px;
+        top: 150px;
+        height: 250px;
+        width: 240px;
+    }
+    .design .content
+    {
+        width: 100%;
+    }
+    .design .content h2
+    {
+        font-size: 22px;
+    }
+    .design .content h5
+    {
+        font-size: 15px;
+    }
+    .design .content .t1 .first 
+    {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .design .content .t2 .second
+    {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .other-chair
+    {
+        flex-direction: column;
+    }
+    .other-chair .chair-1 .text h4
+    {
+        font-size: 15px;
+    }
+    .other-chair .chair-1 .text h5
+    {
+        font-size: 12px;
+    }
+
+    .swiper-slide  h5
+    {
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .swiper-slide img
+    {
+       margin: 20px auto;
+    }
+    
+    .swiper-slide  h4
+    {
+        font-size: 15px;
+    }
+
+    .blog .title
+    {
+        flex-direction: column;
+    }
+    .blog .title h2
+    {
+        font-size: 22px;
+    }
+    .blog .main-img
+    {
+        flex-direction: column;
+    }
+    .blog .main-img .image
+    {
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+    .footer .head
+    {
+        flex-direction: column;
+    }
+    .footer .head img
+    {
+        margin-top: -600px;
+    }
+    .midal
+    {
+        margin-top: 40%;
+        flex-direction: column;
+    }
+    .midal .box1
+    {
+        width: 100%;
+        margin: 0%;
+    }
+    .last
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .last h5
+    {
+        font-size: 13px;
+    }
+    .last .term
+    {
+        margin-top: 10px;
+        justify-content: space-evenly;
+    }
+    .last .term h5
+    {
+        padding-left: 0px;
+        color: #2f2f2f;
+    }
+
+    .midal .box2,.box3,.box4,.box5
+    {
+        margin-top: 15%;
+    }
+
+    .midal .main-box-2,.main-box-3
+    {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
